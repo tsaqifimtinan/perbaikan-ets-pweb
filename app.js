@@ -34,7 +34,7 @@ apirequest.onload = function() {
                 const card = document.createElement('div');
                 card.className = "col-md-4";
                 card.innerHTML = `
-                    <div class="card" style="width: 24rem;">
+                    <div class="card" style="width: 22rem;">
                         <img src="${item.thumbnail}" class="card-img-top" alt="${item.title}">
                         <div class="card-body">
                             <h5 class="card-title">${item.title}</h5>
