@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 2% 1%;
+    width: 100%;
+    height: 550px;
+    overflow: auto;
+    text-align: justify;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    color: white;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+.text-center {
+    color: red;
+}
